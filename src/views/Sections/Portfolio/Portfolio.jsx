@@ -2,9 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import clsx from "clsx";
 
-import { Row } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import SectionHeader from "components/SectionHeader";
-import PortfolioItem from "components/PortfolioItem";
+import ServiceItem from "components/ServiceItem";
 import PageSection from "components/PageSection";
 import "./Portfolio.scss";
 
@@ -22,22 +22,10 @@ const Portfolio = ({ className, frontmatter }) => {
       </Row>
       <Row>
         {portfolios.map(
-          ({ content, extraInfo, header, imageFileName, imageFileNameDetail, subheader }) => (
-            <PortfolioItem
-              key={header}
-              imageFileName={imageFileName}
-              header={header}
-              subheader={subheader}
-              content={content}
-              imageFileNameDetail={imageFileNameDetail}
-              extraInfo={
-                <ul>
-                  {extraInfo.map((ei) => (
-                    <li key={ei}>{ei}</li>
-                  ))}
-                </ul>
-              }
-            />
+          (portfolio) => (
+            <Col md={4} key={portfolio.header}>
+              <ServiceItem {...portfolio} />
+            </Col>
           ),
         )}
       </Row>

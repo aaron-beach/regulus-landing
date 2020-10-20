@@ -32,30 +32,22 @@ export const query = graphql`
     ) {
       nodes {
         frontmatter {
-          brand
           anchor
-          clients {
-            href
-            imageFileName
-          }
-          content
+          brand
           copyright
           header
           email
           imageFileName
-          jumpToAnchor
           jumpToAnchorText
+          jumpToAnchor
           menuText
-          portfolios {
-            content
-            extraInfo
-            header
-            subheader
-            imageFileNameDetail
-            imageFileName
-          }
           privacyHref
           privacyText
+          portfolios {
+            content
+            header
+            iconName
+          }
           services {
             content
             header
@@ -64,35 +56,14 @@ export const query = graphql`
           }
           social {
             facebook
-            github
             linkedin
-            medium
             twitter
           }
           subheader
-          teamMember {
-            header
-            imageFileName
-            social {
-              facebook
-              github
-              linkedin
-              medium
-              twitter
-            }
-            subheader
-          }
           telephone
-          termsHref
           termsText
+          termsHref
           title
-          timeline {
-            content
-            header
-            imageContent
-            imageFileName
-            subheader
-          }
         }
         fields {
           fileName
