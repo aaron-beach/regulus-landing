@@ -3,7 +3,8 @@ function getBaseUrl(defaultLang, lang) {
     return `/${lang}/`;
   }
 
-  return '/';
+  return "/";
 }
 
+// eslint-disable-next-line no-undef
 module.exports = getBaseUrl;

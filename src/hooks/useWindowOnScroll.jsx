@@ -23,7 +23,6 @@ const useWindowOnScroll = (handleWindowScroll, loadOnceOnMount = true) => {
     if (loadOnceOnMount) {
       handleWindowScroll();
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 };
 
