@@ -1,9 +1,8 @@
 ---
-copyright: "Copyright © Start Bootstrap 2020"
+copyright: "Copyright © Regulus Consultants 2020"
 social: {
   twitter: "#",
-  facebook: "#",
-  medium: "#"
+  facebook: "#"
 }
 privacyText: "Privacy Policy"
 privacyHref: "#!"

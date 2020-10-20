@@ -4,52 +4,19 @@ header: "ポートフォリオ"
 subheader: "あなたは偶然断然その持通り"
 portfolios: [
   {
-    imageFileName: "portfolio/01-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/01-full.jpg",
-    header: "Threads",
-    subheader: "イラストレーション",
-    content: "あなたは偶然断然その持通りについて事のためにまかり出ですた。もう元来を説明心はとうとうこのお話しないななどでいて行くたでは滅亡しましでて、再びにはなったうないです。受売へ折っだっのはもし今をもうないないない。",
-    extraInfo: ["日付： January 2017", "クライエント: Threads", "カテゴリ: Illustration"]
+    iconName: "ShoppingCartIcon",
+    header: "Legal Consulting",
+    content: "We provide top class professional legal advice and services, creating of companies and business names, we also assist in drafting of commercial and private contracts."
   },
   {
-    imageFileName: "portfolio/02-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/02-full.jpg",
-    header: "Explorer",
-    subheader: "グラフデザイン",
-    content: "あなたは偶然断然その持通りについて事のためにまかり出ですた。もう元来を説明心はとうとうこのお話しないななどでいて行くたでは滅亡しましでて、再びにはなったうないです。受売へ折っだっのはもし今をもうないないない。",
-    extraInfo: ["日付： January 2017", "クライエント: Explorer", "カテゴリ: Graphic Design"]
+    iconName: "LaptopIcon",
+    header: "Management Consulting",
+    content: "We work on improving the efficiency and productivity of any organization that we work with. This involves understanding all the factors of production of an organization and deploying certain technological tools which includes but not limited to, business process automation, Data Visualization, Data Migration in order to improve upon the efficiency of work for a client and increase service delivery for said client."
   },
   {
-    imageFileName: "portfolio/03-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/03-full.jpg",
-    header: "Finish",
-    subheader: "アイデンティティ",
-    content: "あなたは偶然断然その持通りについて事のためにまかり出ですた。もう元来を説明心はとうとうこのお話しないななどでいて行くたでは滅亡しましでて、再びにはなったうないです。受売へ折っだっのはもし今をもうないないない。",
-    extraInfo: ["日付： January 2017", "クライエント: Finish", "カテゴリ: Identity"]
-  },
-  {
-    imageFileName: "portfolio/04-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/04-full.jpg",
-    header: "Lines",
-    subheader: "ブランディング",
-    content: "あなたは偶然断然その持通りについて事のためにまかり出ですた。もう元来を説明心はとうとうこのお話しないななどでいて行くたでは滅亡しましでて、再びにはなったうないです。受売へ折っだっのはもし今をもうないないない。",
-    extraInfo: ["日付： January 2017", "クライエント: Lines", "カテゴリ: Branding"]
-  },
-  {
-    imageFileName: "portfolio/05-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/05-full.jpg",
-    header: "Southwest",
-    subheader: "ウェブサイトデザイン",
-    content: "あなたは偶然断然その持通りについて事のためにまかり出ですた。もう元来を説明心はとうとうこのお話しないななどでいて行くたでは滅亡しましでて、再びにはなったうないです。受売へ折っだっのはもし今をもうないないない。",
-    extraInfo: ["日付： January 2017", "クライエント: Southwest", "カテゴリ: Website Design"]
-  },
-  {
-    imageFileName: "portfolio/06-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/06-full.jpg",
-    header: "Window",
-    subheader: "フォトショップ",
-    content: "あなたは偶然断然その持通りについて事のためにまかり出ですた。もう元来を説明心はとうとうこのお話しないななどでいて行くたでは滅亡しましでて、再びにはなったうないです。受売へ折っだっのはもし今をもうないないない。",
-    extraInfo: ["日付： January 2017", "クライエント: Window", "カテゴリ: Photography"]
+    iconName: "LaptopIcon",
+    header: "Talent Recruiter",
+    content: "We have a proven track record of finding and recommending top class professionals for executive and non-executive roles in our client's businesses. We strive to provide individuals that increase the bottom line of our clients by their robust performance."
   }
 ]
 ---
