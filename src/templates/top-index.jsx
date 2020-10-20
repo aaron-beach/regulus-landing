@@ -34,35 +34,37 @@ export const query = graphql`
         frontmatter {
           anchor
           brand
+          email
           copyright
           header
-          email
           imageFileName
-          jumpToAnchorText
           jumpToAnchor
           menuText
-          privacyHref
-          privacyText
+          jumpToAnchorText
           portfolios {
-            content
-            header
             iconName
+            header
+            content
           }
+          privacyText
+          privacyHref
           services {
             content
             header
-            iconName
             imageFileName
+            iconName
           }
           social {
             facebook
-            linkedin
+            github
+            medium
             twitter
+            linkedin
           }
           subheader
           telephone
-          termsText
           termsHref
+          termsText
           title
         }
         fields {

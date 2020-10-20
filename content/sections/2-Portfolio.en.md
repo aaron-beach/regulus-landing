@@ -2,6 +2,7 @@
 anchor: "Portfolio"
 header: "Communication"
 subheader: "How we do it"
+imageFileName: "consulting/01-subheader-bg.png"
 portfolios: [
   {
     iconName: "ShoppingCartIcon",
