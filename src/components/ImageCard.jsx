@@ -4,6 +4,7 @@ import clsx from "clsx";
 
 import { Container, Card } from "react-bootstrap";
 import Image from "components/Image";
+// import TitleHeader from "components/TitleHeader";
 import "./ImageCard.scss";
 
 const ImageCard = ({ className, imageFileName, imageAlt, header, subheader, extraInfo }) => {
@@ -13,8 +14,9 @@ const ImageCard = ({ className, imageFileName, imageAlt, header, subheader, extr
       <Card.ImgOverlay className="no-padding">
         <Container>
           <div className="intro-text">
-            <div className="intro-lead-in">{subheader}</div>
-            <div className="intro-heading text-uppercase">{header}</div>
+            {/* Place Title component/quotes here */}
+            {/* <div className="intro-heading text-uppercase">{header}</div> */}
+            {/* <TitleHeader /> */}
             {extraInfo}
           </div>
         </Container>

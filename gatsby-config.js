@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const path = require("path");
 const { title, keywords, description, author, defaultLang, trackingId } = require("./config/site");
 
