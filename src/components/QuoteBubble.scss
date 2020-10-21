@@ -1,0 +1,25 @@
+div.speech {
+  color: white;
+  position: relative;
+  height: 100%;
+  text-align: center;
+  background-color: $primary;
+  padding: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-shadow: 2px 2px 4px #888;
+  -moz-box-shadow: 2px 2px 4px #888;
+  box-shadow: 2px 2px 4px #888;
+}
+
+div.speech:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	right: 200px;
+	top: calc(100%);
+	border: 25px solid;
+	border-color: $primary $primary transparent transparent;
+}

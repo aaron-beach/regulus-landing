@@ -6,6 +6,7 @@ import { Row, Col } from "react-bootstrap";
 import SectionHeader from "components/SectionHeader";
 import ServiceItem from "components/ServiceItem";
 import PageSection from "components/PageSection";
+import QuoteBubble from "components/QuoteBubble";
 import "./Portfolio.scss";
 
 const Portfolio = ({ className, frontmatter }) => {
@@ -28,6 +29,9 @@ const Portfolio = ({ className, frontmatter }) => {
             </Col>
           ),
         )}
+      </Row>
+      <Row>
+        <QuoteBubble />
       </Row>
     </PageSection>
   );
