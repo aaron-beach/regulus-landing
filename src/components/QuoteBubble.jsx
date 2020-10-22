@@ -1,18 +1,50 @@
-import React from "react"
+import React from "react";
+import { StaticQuery, graphql } from "gatsby";
+import PropTypes from "prop-types";
 
 import "./QuoteBubble.scss";
 
-const QuoteBubble = () => {
-  return (
-    <>
-      <div className="speech">
-        <p>
-          Working with Regulus allowed our company, Bulbfire, to expand our clientele and meet their specific demands on time. Over the years, they have served as a key resource that we regularly consult on large projects. We highly recommend their services to companies and institutions that require bespoke consultancy services to break into new markets and increase their revenue.
-        </p>
-        <span>Olu Onemola Co-Founder & Chief Operating Officer, Bulbfire</span>
+
+const QuoteBubble = ( { clientName }) => (
+  <StaticQuery
+    query={graphql`
+      query ClientsQuery {
+        clients: allMarkdownRemark {
+          nodes {
+            frontmatter {
+              client {
+                company
+                content
+                imageFileName
+                name
+                title
+              }
+            }
+          }
+        }
+      }
+    `}   
+    render={data => {
+      const clients = data.clients.nodes.find( (elem) => elem.frontmatter.client != null)
+
+      const { company, name, title, content } = clients.frontmatter.client.find(n => n.company == ( clientName || "Bulbfire Ltd."))
+
+      return <div className="speech">
+         <p>
+           {content}
+         </p>
+        <span>{name}, {title}, {company}</span>
       </div>
-    </>
-  )
+     }}
+  />
+)
+
+QuoteBubble.propTypes = {
+  clientName: PropTypes.string.isRequired
+}
+
+QuoteBubble.defaultProps = {
+  clientName: null
 }
 
 export default QuoteBubble

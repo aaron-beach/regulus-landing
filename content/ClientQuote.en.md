@@ -1,10 +1,10 @@
 ---
-clients: [
+client: [
   {
     imageFileName: "logos/bulbfire.png",
     content: "Working with Regulus allowed our company, Bulbfire, to expand our clientele and meet their specific demands on time. Over the years, they have served as a key resource that we regularly consult on large projects.We highly recommend their services to companies and institutions that require bespoke consultancy services to break into new markets and increase their revenue.",
     name: "Olu Onemola",
-    title: "Co-Founder & Chief Operating Officer, Bulbfire",
+    title: "Co-Founder & Chief Operating Officer",
     company: "Bulbfire Ltd."
   },
   {

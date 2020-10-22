@@ -31,7 +31,7 @@ const Portfolio = ({ className, frontmatter }) => {
         )}
       </Row>
       <Row>
-        <QuoteBubble />
+        <QuoteBubble clientName={"Allegro Technologies"}/>
       </Row>
     </PageSection>
   );

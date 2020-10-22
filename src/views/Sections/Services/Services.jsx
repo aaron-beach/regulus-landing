@@ -6,6 +6,7 @@ import { Row, Col } from "react-bootstrap";
 import ServiceItem from "components/ServiceItem";
 import SectionHeader from "components/SectionHeader";
 import PageSection from "components/PageSection";
+import QuoteBubble from "components/QuoteBubble";
 
 const Services = ({ className, frontmatter }) => {
   if (!frontmatter) {
@@ -26,6 +27,7 @@ const Services = ({ className, frontmatter }) => {
           </Col>
         ))}
       </Row>
+      <Row> <QuoteBubble clientName={"Bulbfire Ltd."}/> </Row>
     </PageSection>
   );
 };

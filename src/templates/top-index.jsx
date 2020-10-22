@@ -36,6 +36,13 @@ export const query = graphql`
           brand
           email
           copyright
+          client {
+            company
+            content
+            imageFileName
+            name
+            title
+          }
           header
           imageFileName
           jumpToAnchor
