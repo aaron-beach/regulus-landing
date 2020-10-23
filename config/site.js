@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Gatsyby Startbootstrap Agency",
+  title: "Regulus Consultants",
   keywords: [
     "gatsby",
     "gatsbyjs",
@@ -10,8 +10,8 @@ module.exports = {
     "bootstrap",
     "startbootstrap-agency",
   ],
-  description: "gatsby version of startbootstrap-agency with i18n support.",
-  author: "thundermiracle",
+  description: "Regulus Consultants landing page.",
+  author: "Aaron Beach",
   trackingId: "UA-119418003-5",
   defaultLang: "en",
   langTextMap: {
