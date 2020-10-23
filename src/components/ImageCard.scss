@@ -17,8 +17,16 @@
     padding: 0;
   }
   .intro-text {
+    display: grid;
+    grid-template-columns: 150px 4fr 1fr 150px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "vision vision . ."
+    ". logo . mission"
+    ". . . btn";
     padding-top: 150px;
     padding-bottom: 100px;
+    width: 100%;
     .intro-lead-in {
       font-size: 22px;
       font-style: italic;
@@ -33,6 +41,28 @@
       margin-bottom: 25px;
       @include heading-font;
     }
+  }
+  .text-vision, .text-mission {
+    background-color: rgba($color: $primary, $alpha: 0.3);
+    border: $white solid 5px;
+    border-radius: 0 45px;
+    margin: 10px;
+    padding: 30px;
+    width: 450px;
+  }
+
+  .text-vision {
+    grid-area: vision;
+  }
+
+  .text-mission {
+    grid-area: mission;
+  }
+  .cta {
+    grid-area: btn;
+  }
+  .logo {
+    grid-area: logo;
   }
 }
 @media (min-width: 768px) {
@@ -59,5 +89,10 @@
         @include heading-font;
       }
     }
+  }
+}
+@media (max-width: 1000px) {
+  .logo {
+    visibility: hidden;
   }
 }

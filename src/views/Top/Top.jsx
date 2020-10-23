@@ -11,7 +11,7 @@ const Top = ({ frontmatter }) => {
     return null;
   }
 
-  const { header, subheader, imageFileName, jumpToAnchor, jumpToAnchorText } = frontmatter;
+  const { header, subheader, imageFileName, jumpToAnchor, jumpToAnchorText, statement } = frontmatter;
 
 
   const scrollToSection = useSmoothScrollTo(jumpToAnchor);
@@ -31,6 +31,7 @@ const Top = ({ frontmatter }) => {
       header={header}
       subheader={subheader}
       extraInfo={extraInfoPart}
+      statement={statement}
     />
   );
 };
