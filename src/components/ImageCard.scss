@@ -1,7 +1,7 @@
 .image-card {
-  height: 491px;
+  height: 691px;
   .image {
-    height: 491px;
+    height: 691px;
     opacity: 0.7;
     &::after {
       background-color: rgba($color: #000000, $alpha: 0.7);
@@ -18,13 +18,13 @@
   }
   .intro-text {
     display: grid;
-    grid-template-columns: 150px 4fr 1fr 150px;
+    grid-template-columns: 100px 1fr 150px 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
     "vision vision . ."
     ". logo . mission"
     ". . . btn";
-    padding-top: 150px;
+    // padding-top: 150px;
     padding-bottom: 100px;
     width: 100%;
     .intro-lead-in {
@@ -72,8 +72,8 @@
       height: 759px;
     }
     .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
+      padding-top: 100px;
+      padding-bottom: 100px;
       .intro-lead-in {
         font-size: 40px;
         font-style: italic;
