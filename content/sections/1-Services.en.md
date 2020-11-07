@@ -2,6 +2,7 @@
 anchor: "Services"
 header: "Consulting"
 subheader: "What we can do"
+imageFileName: "01-subheader-bg.jpg"
 services: [
   {
     iconName: "ShoppingCartIcon",

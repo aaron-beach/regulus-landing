@@ -9,7 +9,7 @@ import "./SectionHeader.scss";
 const SectionHeader = ({ header, subheader, className, imageFileName, ...restProps }) => {
   const subheaderPart = subheader ? (
     <>
-    <Image className="image" fileName={imageFileName}/>
+    <Image className="image" fileName={imageFileName} alt={ header || subheader}/>
     <h3 className="section-subheading text-uppercase">{subheader}</h3>
     </>
   ) : null;
