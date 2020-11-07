@@ -69,6 +69,10 @@ export const query = graphql`
             linkedin
           }
           subheader
+          statement {
+            mission
+            vision
+          }
           telephone
           termsHref
           termsText
