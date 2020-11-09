@@ -1,7 +1,7 @@
 ---
 header: "Regulus Consultants"
 subheader: " "
-imageFileName: "header-bg.jpg"
+imageFileName: "header-bg"
 jumpToAnchor: "Services"
 jumpToAnchorText: "Learn More"
 statement: [

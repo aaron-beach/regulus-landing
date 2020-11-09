@@ -83,7 +83,6 @@
   },
   "scripts": {
     "clean": "gatsby clean",
-
     "dev": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "serve": "gatsby serve",

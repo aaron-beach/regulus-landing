@@ -2,14 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 import clsx from "clsx";
 
-import Image from "components/Image";
 import { Col } from "react-bootstrap";
 import "./SectionHeader.scss";
 
-const SectionHeader = ({ header, subheader, className, imageFileName, ...restProps }) => {
+const SectionHeader = ({ header, subheader, className, ...restProps }) => {
   const subheaderPart = subheader ? (
     <>
-    <Image className="image" fileName={imageFileName} alt={ header || subheader}/>
     <h3 className="section-subheading text-uppercase">{subheader}</h3>
     </>
   ) : null;
