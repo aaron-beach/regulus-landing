@@ -7,7 +7,7 @@ import Image from "components/Image";
 import TitleHeader from "components/TitleHeader";
 import "./ImageCard.scss";
 
-const ImageCard = ({ className, imageFileName, imageAlt, header, statement, subheader, extraInfo }) => {
+const ImageCard = ({ className, imageFileName, imageAlt, header, subheader, extraInfo }) => {
   return (
     <Card className={clsx("image-card bg-dark text-white text-center", className)}>
       <Image className="image" fileName={imageFileName} alt={imageAlt || header || subheader} />
@@ -16,11 +16,11 @@ const ImageCard = ({ className, imageFileName, imageAlt, header, statement, subh
           <div className="intro-text">
             <div className="text-vision">
               <h2>OUR VISION:</h2> 
-              <h3>{statement[0].vision}</h3>
+              {/* <h3>{statement[0].vision}</h3> */}
             </div>
             <div className="text-mission">
                 <h2>OUR MISSION:</h2>
-                <h3>{statement[1].mission}</h3>
+                {/* <h3>{statement[1].mission}</h3> */}
             </div>
             <TitleHeader className="logo"/>
             <div className="cta">{extraInfo}</div>
