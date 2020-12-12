@@ -47,34 +47,13 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
+    "gatsby-plugin-preload-fonts",
     "gatsby-plugin-offline",
     {
       resolve: "gatsby-plugin-sass",
       options: {
         data: `@import "core.scss";`,
         includePaths: [path.resolve(__dirname, "src/style")],
-      },
-    },
-    {
-      resolve: "gatsby-plugin-prefetch-google-fonts",
-      options: {
-        fonts: [
-          {
-            family: "Montserrat",
-            variants: [400, 700],
-          },
-          {
-            family: "Kaushan+Script",
-          },
-          {
-            family: "Droid+Serif",
-            variants: [400, 700, "400italic", "700italic"],
-          },
-          {
-            family: "Roboto+Slab",
-            variants: [400, 100, 300, 700],
-          },
-        ],
       },
     },
     {
